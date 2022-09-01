@@ -16,6 +16,9 @@ python add_users.py <csv_path> <group_id>
 ```
 This command will output the result of the call to the command line.
 
+- Import file should be called users.csv
+- This script will convert username/email to Unique user ID, which is required to add users to a group via API
+
 ## Check user state/status from a CSV
 
 Run the following command in the root directory:
@@ -23,3 +26,5 @@ Run the following command in the root directory:
 python check_users.py <csv_path>
 ```
 This command will produce a repsonses.csv file, and will log the results to the command line
+
+- Import file should be called users.csv
