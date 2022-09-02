@@ -7,9 +7,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage Information
-CSV-file: The CSV-file can have any format, as long as the username is always in the first (0) index
+- CSV-file: The CSV-file can have any format, as long as the username is always in the first (0) index
 
-No Headers are required
+- No Headers are required
 
 
 ## Add users to Okta group from local CSV (**add_users.py**)
